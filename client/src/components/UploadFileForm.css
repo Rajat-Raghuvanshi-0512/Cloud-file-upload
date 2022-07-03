@@ -1,0 +1,77 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.fs-big {
+	font-size: 5rem;
+}
+.flex {
+	display: flex;
+	gap: 10px;
+}
+.flex-col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.bg-darkblue {
+	background-color: rgb(5, 113, 207);
+	color: aliceblue;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: all 0.5s;
+	height: 60vh;
+}
+.bg-darkblue:hover {
+	background-color: rgb(3, 67, 124);
+	box-shadow: 1px 1px 17px rgba(8, 69, 143, 0.542);
+}
+.hidden {
+	display: none;
+}
+.w-0 {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	z-index: -1;
+}
+.input_pass {
+	outline: none;
+	border: none;
+	padding: 0.7vmax;
+	border-radius: 3px;
+}
+.btn-dark {
+	background-color: rgb(4, 82, 149);
+	color: aliceblue;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.btn-dark:hover {
+	box-shadow: 0px 0px 5px rgba(1, 49, 138, 0.413);
+	background-color: rgb(5, 113, 207);
+}
+.file {
+	background-color: rgb(0, 133, 242);
+	padding: 0.7vmax;
+	border-radius: 5px;
+	color: aliceblue;
+	text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.586);
+}
+@media (max-width: 900px) {
+	.bg-darkblue {
+		height: 30vh;
+	}
+}
